@@ -1,0 +1,3 @@
+import EditSecondContactDetailScreen from './EditSecondContactDetailScreen'
+
+export default EditSecondContactDetailScreen

@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-modal/dist/modal.d.ts b/node_modules/react-native-modal/dist/modal.d.ts
+index b63bcfc..48ad606 100644
+--- a/node_modules/react-native-modal/dist/modal.d.ts
++++ b/node_modules/react-native-modal/dist/modal.d.ts
+@@ -28,7 +28,7 @@ declare const defaultProps: {
+     backdropTransitionOutTiming: number;
+     customBackdrop: React.ReactNode;
+     useNativeDriver: boolean;
+-    deviceHeight: number | null;
++    deviceHeight: number | string | null;
+     deviceWidth: number | null;
+     hideModalContentWhileAnimating: boolean;
+     propagateSwipe: boolean | ((event: GestureResponderEvent, gestureState: PanResponderGestureState) => boolean);

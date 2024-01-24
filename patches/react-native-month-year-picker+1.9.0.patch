@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-month-year-picker/index.d.ts b/node_modules/react-native-month-year-picker/index.d.ts
+index e5e2ec4..8b65c61 100644
+--- a/node_modules/react-native-month-year-picker/index.d.ts
++++ b/node_modules/react-native-month-year-picker/index.d.ts
+@@ -12,7 +12,7 @@ export interface MonthPickerProps {
+     /**
+     * Defines the date value used in the component.
+     */
+-    value:Date;
++    value:Date | any;
+     /**
+     * Defines the month list locale.
+     * If not sent, it defaults to device's language.

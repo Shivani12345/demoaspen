@@ -1,0 +1,3 @@
+import EditRenterContactDetailScreen from './EditRenterContactDetailScreen'
+
+export default EditRenterContactDetailScreen

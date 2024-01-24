@@ -1,0 +1,40 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json", /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    /* Completeness */
+    "esModuleInterop": true,
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "assets/*": [
+        "src/assets/*"
+      ],
+      "common/*": [
+        "src/common/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "interfaces/*": [
+        "src/interfaces/*"
+      ],
+      "navigations/*": [
+        "src/navigations/*"
+      ],
+      "screens/*": [
+        "src/screens/*"
+      ],
+      "services/*": [
+        "src/services/*"
+      ],
+      "store/*": [
+        "src/store/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+    },
+  },
+}
